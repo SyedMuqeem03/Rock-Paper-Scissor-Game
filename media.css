@@ -1,0 +1,34 @@
+@media screen and (max-width : 700px)
+{
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image:url(./assets/abstract-design-futuristic-background_23-2148459427.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+h1{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.chocies{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 1rem;
+ }   
+
+ .score-board{
+    margin-top: 1rem;
+    gap: 1rem;
+    font-size: 2rem;
+    color: white;
+ }
+}
